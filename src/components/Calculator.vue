@@ -16,15 +16,15 @@
             <v-spacer></v-spacer>
             <v-btn variant="text" @click="reset">Reset</v-btn>
             |
-            <v-btn color="primary" disabled>
+            <v-btn color="primary" >
               Select Preset...
               <v-menu activator="parent">
                 <v-list>
-                  <v-list-item title="Yard Signs" value="yard-sign"></v-list-item>
-                  <v-list-item title="A-Frame" value="a-frame"></v-list-item>
-                  <v-list-item title="Stickers (Econo)" value="print"></v-list-item>
-                  <v-list-item title="Mural/Wall Graphic" value="mural"></v-list-item>
-                  <v-list-item title="Vinyl" value="vinyl"></v-list-item>
+                  <v-list-item disabled title="Yard Signs" value="yard-sign"></v-list-item>
+                  <v-list-item disabled title="A-Frame" value="a-frame"></v-list-item>
+                  <v-list-item disabled title="Stickers (Econo)" value="print"></v-list-item>
+                  <v-list-item disabled title="Mural/Wall Graphic" value="mural"></v-list-item>
+                  <v-list-item disabled title="Vinyl" value="vinyl"></v-list-item>
                 </v-list>
               </v-menu>
             </v-btn>
@@ -189,7 +189,7 @@
 
               </v-btn>
 
-              <v-btn disbaled outlined prepend-icon="mdi-plus">Labor
+              <v-btn disabled outlined prepend-icon="mdi-plus">Labor
 
               </v-btn>
 
