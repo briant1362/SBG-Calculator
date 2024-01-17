@@ -16,7 +16,7 @@
             <v-spacer></v-spacer>
             <v-btn variant="text" @click="reset">Reset</v-btn>
             |
-            <v-btn color="primary">
+            <v-btn color="primary" >
               Select Preset...
               <v-menu activator="parent">
                 <v-list>
@@ -193,11 +193,11 @@
                   </v-list>
                 </v-menu>
               </v-btn>
-              <v-btn outlined prepend-icon="mdi-plus">Vinyl
+              <v-btn disabled outlined prepend-icon="mdi-plus">Vinyl
 
               </v-btn>
 
-              <v-btn outlined prepend-icon="mdi-plus">Labor
+              <v-btn disabled outlined prepend-icon="mdi-plus">Labor
 
               </v-btn>
 

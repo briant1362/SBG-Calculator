@@ -1,7 +1,7 @@
 <template>
   <v-app class="rounded rounded-md">
 
-    <v-app-bar title="SBG Calculator 2" color="blue-darken-4"></v-app-bar>
+    <v-app-bar title="Seven Barks Graphics - Calculator" color="blue-darken-4"></v-app-bar>
 
     <v-navigation-drawer color="blue" class="">
       <v-list class="">
