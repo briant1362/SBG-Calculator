@@ -1,0 +1,785 @@
+{
+
+"media": [
+    {
+      "name": "None",
+      "Mfg": "",
+      "Source": "",
+      "width": "0",
+      "Cost/SF": "0",
+      "costPerLF": "0",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": ">>>>> CALENDARED VINYL <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "0",
+      "Cost/SF": "0",
+      "costPerLF": "0",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "Orajet 3641M – 54”",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.2222222222222222",
+      "costPerLF": "1",
+      "Last Updated": ""
+    },
+    {
+      "name": "Orajet 3620 (removable white/clear)– 54”",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.21",
+      "costPerLF": "0.945",
+      "Last Updated": ""
+    },
+    {
+      "name": [
+        "3M I40 (ultra calendared",
+        "removable) – 54”"
+      ],
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.66",
+      "costPerLF": "2.97",
+      "Last Updated": "2023-02-10T05:00:00.000Z"
+    },
+    {
+      "name": [
+        "3169RA (removable",
+        "air egress)"
+      ],
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.483",
+      "costPerLF": "2.1734999999999998",
+      "Last Updated": ""
+    },
+    {
+      "name": "Sihl 3988 (NCMA) - 50\"",
+      "Mfg": "Sihl",
+      "Source": "",
+      "width": "50",
+      "Cost/SF": "0.97",
+      "costPerLF": "4.041666666666667",
+      "Last Updated": ""
+    },
+    {
+      "name": "Sihl 3988 (NCMA) - 42\"",
+      "Mfg": "Sihl",
+      "Source": "",
+      "width": "42",
+      "Cost/SF": "0.98",
+      "costPerLF": "3.4299999999999997",
+      "Last Updated": ""
+    },
+    {
+      "name": "Avery Transit MPI 2121 – 54”",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.34",
+      "costPerLF": "1.53",
+      "Last Updated": ""
+    },
+    {
+      "name": "GF Concept 209 MetroMark – 54”",
+      "Mfg": "Gen Form",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.27",
+      "costPerLF": "1.215",
+      "Last Updated": ""
+    },
+    {
+      "name": "Orajet 3105HT (high tack) – 54”",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.67",
+      "costPerLF": "3.015",
+      "Last Updated": ""
+    },
+    {
+      "name": "3M IJ35 – 54”",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.44",
+      "costPerLF": "1.98",
+      "Last Updated": ""
+    },
+    {
+      "name": "3M I39 – 54”",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.5",
+      "costPerLF": "2.25",
+      "Last Updated": ""
+    },
+    {
+      "name": ">>>>> PREMIUM CAST VINYL <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "3M IJ180Cv3 Wrap – 54”",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.56",
+      "costPerLF": "7.0200000000000005",
+      "Last Updated": "2023-02-10T05:00:00.000Z"
+    },
+    {
+      "name": "3M IJ8624 Textured Wall – 54”",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.49",
+      "costPerLF": "6.705",
+      "Last Updated": "2023-02-10T05:00:00.000Z"
+    },
+    {
+      "name": "Avery MPI 1105 Easy Apply RS",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.06",
+      "costPerLF": "4.7700000000000005",
+      "Last Updated": "2023-02-10T05:00:00.000Z"
+    },
+    {
+      "name": "Avery MPI 1405",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.93",
+      "costPerLF": "4.1850000000000005",
+      "Last Updated": ""
+    },
+    {
+      "name": "BriteLine Cast",
+      "Mfg": "Briteline",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.83",
+      "costPerLF": "3.735",
+      "Last Updated": "2023-08-30T04:00:00.000Z"
+    },
+    {
+      "name": ">>>>> FLOOR <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "MacTac StreetRap – 54”",
+      "Mfg": "MacTac",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.46",
+      "costPerLF": "6.57",
+      "Last Updated": ""
+    },
+    {
+      "name": "Briteline Multigrip",
+      "Mfg": "Briteline",
+      "Source": "Grimco",
+      "width": "48",
+      "Cost/SF": "1.61",
+      "costPerLF": "6.44",
+      "Last Updated": ""
+    },
+    {
+      "name": "Alumigraphics Grip – 53”",
+      "Mfg": "MacTac",
+      "Source": "Fellers",
+      "width": "53",
+      "Cost/SF": "3.78",
+      "costPerLF": "16.695",
+      "Last Updated": ""
+    },
+    {
+      "name": "Alumigraphics Smooth – 53”",
+      "Mfg": "MacTac",
+      "Source": "Fellers",
+      "width": "53",
+      "Cost/SF": "3.03",
+      "costPerLF": "13.3825",
+      "Last Updated": ""
+    },
+    {
+      "name": "SportWalk – 54”",
+      "Mfg": "AsphaltArt",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "2.33",
+      "costPerLF": "10.485",
+      "Last Updated": ""
+    },
+    {
+      "name": ">>>>> WINDOWS/PERFORATED/BACKLIT/ TL <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "Briteline Printable Static Cling",
+      "Mfg": "Briteline",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.47",
+      "costPerLF": "2.1149999999999998",
+      "Last Updated": "2023-02-10T05:00:00.000Z"
+    },
+    {
+      "name": "Orajet 3850 Translucent – 54”",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.79",
+      "costPerLF": "3.555",
+      "Last Updated": ""
+    },
+    {
+      "name": "Orafol 751 white - 24\"",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": ""
+    },
+    {
+      "name": "Avery MPI 2050 Translucent – 54”",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.6",
+      "costPerLF": "2.6999999999999997",
+      "Last Updated": ""
+    },
+    {
+      "name": "Solvex TV Translucent – 54”",
+      "Mfg": "Solvex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.47",
+      "costPerLF": "2.1149999999999998",
+      "Last Updated": ""
+    },
+    {
+      "name": "50/50 Window Perf – Solvex",
+      "Mfg": "Solvex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.17",
+      "costPerLF": "5.265",
+      "Last Updated": ""
+    },
+    {
+      "name": "70/30 Window Perf – Solvex",
+      "Mfg": "Solvex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.37",
+      "costPerLF": "6.165000000000001",
+      "Last Updated": ""
+    },
+    {
+      "name": "GF 255 (opt clear removable)",
+      "Mfg": "General Formulation",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.4",
+      "costPerLF": "1.8",
+      "Last Updated": ""
+    },
+    {
+      "name": "Magic SBL-9 (backlit display film) – 36”",
+      "Mfg": "Magic",
+      "Source": "Fellers",
+      "width": "36",
+      "Cost/SF": "0.72",
+      "costPerLF": "2.16",
+      "Last Updated": ""
+    },
+    {
+      "name": "Magic SBL-9 (backlit display film) – 50”",
+      "Mfg": "Magic",
+      "Source": "Fellers",
+      "width": "50",
+      "Cost/SF": "0.76",
+      "costPerLF": "3.166666666666667",
+      "Last Updated": ""
+    },
+    {
+      "name": ">>>>> SPECIALIZED <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "PrismJET 110 Printable Flag Media",
+      "Mfg": "",
+      "Source": "SignWarehouse",
+      "width": "54",
+      "Cost/SF": "0.48",
+      "costPerLF": "2.16",
+      "Last Updated": ""
+    },
+    {
+      "name": "5.5mil polyester Opt-Solve Flag – 54”",
+      "Mfg": "Opti-Solve",
+      "Source": "Jack Ripper",
+      "width": "54",
+      "Cost/SF": "0.78",
+      "costPerLF": "3.5100000000000002",
+      "Last Updated": ""
+    },
+    {
+      "name": "Canvas – Ultraflex 11oz True Canvas",
+      "Mfg": "Ultraflex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.58",
+      "costPerLF": "2.61",
+      "Last Updated": ""
+    },
+    {
+      "name": "Wallpaper – Korographics Abaco Beach",
+      "Mfg": "Korographics",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.53",
+      "costPerLF": "2.3850000000000002",
+      "Last Updated": ""
+    },
+    {
+      "name": "Phototex Adhesive Fabric",
+      "Mfg": "Phototex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.91",
+      "costPerLF": "4.095",
+      "Last Updated": ""
+    },
+    {
+      "name": "Phototex Adhesive Fabric – Blockout",
+      "Mfg": "Phototex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "1.16",
+      "costPerLF": "5.22",
+      "Last Updated": "2023-08-30T04:00:00.000Z"
+    },
+    {
+      "name": "Oracal 5650 White Reflective",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "3.22",
+      "costPerLF": "14.49",
+      "Last Updated": ""
+    },
+    {
+      "name": "UltraPoplin PES C240",
+      "Mfg": "Ultraflex",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.75",
+      "costPerLF": "3.375",
+      "Last Updated": ""
+    },
+    {
+      "name": "Tyvek",
+      "Mfg": "",
+      "Source": "Lexjet",
+      "width": "36",
+      "Cost/SF": "0.92",
+      "costPerLF": "2.7600000000000002",
+      "Last Updated": ""
+    },
+    {
+      "name": ">>>>> DISPLAY FILM <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "Brightline Rollup",
+      "Mfg": "Brightline",
+      "Source": "Grimco",
+      "width": "36",
+      "Cost/SF": "0.66",
+      "costPerLF": "1.98",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "Popup",
+      "Mfg": "Pop-up",
+      "Source": "Fellers",
+      "width": "37",
+      "Cost/SF": "0.66",
+      "costPerLF": "2.035",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "Sihl Durasol 3608 (12mil tradeshow) – 54”",
+      "Mfg": "Sihl",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "1.41",
+      "costPerLF": "6.345",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": ">>>>> BANNER <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "13oz vinyl scrim –38”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "38",
+      "Cost/SF": "0.19",
+      "costPerLF": "0.6016666666666667",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "13oz vinyl scrim – 54”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.19",
+      "costPerLF": "0.855",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "13oz vinyl scrim – 63”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "63",
+      "Cost/SF": "0.19",
+      "costPerLF": "0.9975",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "D/S 18oz vinyl scrim – 38”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "38",
+      "Cost/SF": "0.39",
+      "costPerLF": "1.2349999999999999",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "15oz PET blockout – 38”",
+      "Mfg": "Ultraflex",
+      "Source": "Fellers",
+      "width": "38",
+      "Cost/SF": "0.42",
+      "costPerLF": "1.3299999999999998",
+      "Last Updated": ""
+    },
+    {
+      "name": "Duratex 8oz Mesh – 54”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.26",
+      "costPerLF": "1.17",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": "Duratex8oz Mesh – 63”",
+      "Mfg": "Duratex",
+      "Source": "Grimco",
+      "width": "63",
+      "Cost/SF": "0.26",
+      "costPerLF": "1.365",
+      "Last Updated": "2023-01-01T05:00:00.000Z"
+    },
+    {
+      "name": ">>>>> PAPER <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "HP Premium Poster 9mil Semi-Matte",
+      "Mfg": "HP",
+      "Source": "Grimco",
+      "width": "54",
+      "Cost/SF": "0.25",
+      "costPerLF": "1.125",
+      "Last Updated": ""
+    },
+    {
+      "name": "80lb Drawing Paper",
+      "Mfg": "",
+      "Source": "Grimco",
+      "width": "48",
+      "Cost/SF": "0.125",
+      "costPerLF": "0.5",
+      "Last Updated": ""
+    },
+    {
+      "name": "20lb Bond Paper 48”",
+      "Mfg": "",
+      "Source": "Grimco",
+      "width": "48",
+      "Cost/SF": "0.0649583333",
+      "costPerLF": "0.2598333332",
+      "Last Updated": ""
+    },
+    {
+      "name": "20lb Bond Paper 42”",
+      "Mfg": "",
+      "Source": "Grimco",
+      "width": "48",
+      "Cost/SF": "0.03535",
+      "costPerLF": "0.1414",
+      "Last Updated": ""
+    },
+    {
+      "name": ">>>>> MOVE TO NEW CUT VINYL FIELD <<<<<<",
+      "Mfg": "",
+      "Source": "",
+      "width": "",
+      "Cost/SF": "",
+      "costPerLF": "",
+      "Last Updated": "2024-01-09T05:00:00.000Z"
+    },
+    {
+      "name": "15” cast cut vinyl (black/white) (50yd roll)",
+      "Mfg": "",
+      "Source": "Fellers",
+      "width": "15",
+      "Cost/SF": "0.78",
+      "costPerLF": "0.9750000000000001",
+      "Last Updated": ""
+    },
+    {
+      "name": "24” cast cut vinyl (black/white) (50yd roll)",
+      "Mfg": "",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "0.66",
+      "costPerLF": "1.32",
+      "Last Updated": ""
+    },
+    {
+      "name": "24” cast cut vinyl (colored) (50yd roll)",
+      "Mfg": "",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "0.74",
+      "costPerLF": "1.48",
+      "Last Updated": ""
+    },
+    {
+      "name": "24” cast cut vinyl (colored) (by the yard)",
+      "Mfg": "",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "1.47",
+      "costPerLF": "2.94",
+      "Last Updated": ""
+    },
+    {
+      "name": "48” cast cut vinyl (by the yard)",
+      "Mfg": "",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "2.27",
+      "costPerLF": "9.08",
+      "Last Updated": ""
+    },
+    {
+      "name": "60” cast cut vinyl (25yd)",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "60",
+      "Cost/SF": "1.59",
+      "costPerLF": "7.95",
+      "Last Updated": ""
+    },
+    {
+      "name": "24” reflective (by the yard)",
+      "Mfg": "",
+      "Source": "",
+      "width": "24",
+      "Cost/SF": "2.15",
+      "costPerLF": "4.3",
+      "Last Updated": ""
+    },
+    {
+      "name": "30” reflective (by the yard)",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "30",
+      "Cost/SF": "2.57",
+      "costPerLF": "6.425",
+      "Last Updated": ""
+    },
+    {
+      "name": "48” reflective (10yds)",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "1.76",
+      "costPerLF": "7.04",
+      "Last Updated": ""
+    },
+    {
+      "name": "24” exhibition (by the yard)",
+      "Mfg": "Orafol",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "0.63",
+      "costPerLF": "1.26",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl (B-Free)",
+      "Mfg": "MacTac",
+      "Source": "Fellers",
+      "width": "54",
+      "Cost/SF": "0.79",
+      "costPerLF": "3.555",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 24” (Etchmark)",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "2.28",
+      "costPerLF": "4.56",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 48” (Etchmark)",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "2.21",
+      "costPerLF": "8.84",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 48” by the yard (Etchmark)",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "2.83",
+      "costPerLF": "11.32",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 60” (Etchmark)",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "60",
+      "Cost/SF": "2.17",
+      "costPerLF": "10.85",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 48” (GF)",
+      "Mfg": "General Formulation",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "0.73",
+      "costPerLF": "2.92",
+      "Last Updated": ""
+    },
+    {
+      "name": "Frosted Vinyl 60” (GF)",
+      "Mfg": "General Formulation",
+      "Source": "Fellers",
+      "width": "60",
+      "Cost/SF": "1.3",
+      "costPerLF": "6.5",
+      "Last Updated": ""
+    },
+    {
+      "name": "15” Reflective Vinyl",
+      "Mfg": "Oracal",
+      "Source": "Fellers",
+      "width": "15",
+      "Cost/SF": "2.12",
+      "costPerLF": "2.6500000000000004",
+      "Last Updated": ""
+    },
+    {
+      "name": "Paint Mask",
+      "Mfg": "Oracal",
+      "Source": "Fellers",
+      "width": "24",
+      "Cost/SF": "0.5",
+      "costPerLF": "1",
+      "Last Updated": ""
+    },
+    {
+      "name": "Chrome Wrap Vinyl – Avery",
+      "Mfg": "Avery",
+      "Source": "Fellers",
+      "width": "48",
+      "Cost/SF": "8.33",
+      "costPerLF": "33.32",
+      "Last Updated": ""
+    },
+    {
+      "name": "3M Matte Black Calendared Wrap",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "60",
+      "Cost/SF": "0.74",
+      "costPerLF": "3.7",
+      "Last Updated": ""
+    },
+    {
+      "name": "3M Carbon Fiber (by the yard)",
+      "Mfg": "3M",
+      "Source": "Fellers",
+      "width": "60",
+      "Cost/SF": "3.81",
+      "costPerLF": "19.05",
+      "Last Updated": ""
+    }
+  ]
+}

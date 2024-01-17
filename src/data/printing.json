@@ -1,0 +1,16 @@
+{
+    "printing": [
+        {
+            "name": "HP R1000",
+            "costPerSF": "5"
+        },
+        {
+            "name": "HP R1000 with white",
+            "costPerSF": "7"
+        },
+        {
+        "name": "HP 360",
+        "costPerSF": "4"
+    }
+]
+}

@@ -1,0 +1,7 @@
+{
+    "github.copilot.advanced": {
+        
+    },
+    "git.autoRepositoryDetection": false,
+    "git.openRepositoryInParentFolders": "never"
+}

@@ -1,0 +1,6 @@
+{
+    "substrates": [
+    { "id": 1, "name": "Coro - 4mm white", "width": 48, "height": 96, "cost": 10 },
+    { "id": 2, "name": "PVC - 3mm white", "width": 48, "height": 96, "cost": 15 }
+]
+}
