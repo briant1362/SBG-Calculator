@@ -1,6 +1,5 @@
 // eslint-disable-next-line vue/multi-word-component-names
 <template>
-  <!--btt3-->
   <v-container class="">
     <v-row no-gutters class="">
       <v-col class="pa-4">
