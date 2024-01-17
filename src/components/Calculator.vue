@@ -20,11 +20,16 @@
               Select Preset...
               <v-menu activator="parent">
                 <v-list>
-                  <v-list-item title="Yard Signs" value="yard-sign"></v-list-item>
+
+                  <v-list-item v-for="(item, index) in presets" :key="index" :value="item.name" @click="loadPreset(item)">
+                    <v-list-item-title class="">{{ item.name }}</v-list-item-title>
+                  </v-list-item>
+
+                  <!--<v-list-item title="Yard Signs" value="yard-sign"></v-list-item>
                   <v-list-item title="A-Frame" value="a-frame"></v-list-item>
                   <v-list-item title="Stickers (Econo)" value="print"></v-list-item>
                   <v-list-item title="Mural/Wall Graphic" value="mural"></v-list-item>
-                  <v-list-item title="Vinyl" value="vinyl"></v-list-item>
+                  <v-list-item title="Vinyl" value="vinyl"></v-list-item>-->
                 </v-list>
               </v-menu>
             </v-btn>
@@ -45,8 +50,7 @@
                 <v-text-field v-model="height" type="number" label="Height (in inches)" variant="outlined"></v-text-field>
               </v-col>
               <v-col class="mr-6">
-                <v-text-field v-model="SFforDisplay" label="SF/ea (total)"
-                  variant="outlined" readonly></v-text-field>
+                <v-text-field v-model="SFforDisplay" label="SF/ea (total)" variant="outlined" readonly></v-text-field>
               </v-col>
             </v-row>
             <v-row class="justify=start">
@@ -96,7 +100,7 @@
                 ${{ Number(pricePerItem).toFixed(2) }}/ea (${{ Number(pricePerSF).toFixed(2) }}/SF)
               </v-col>
               <v-col>
-                Margin: {{ totalPrice > 0 ? Number(((totalPrice - totalCost) / totalPrice) * 100).toFixed(2) : 0}}%
+                Margin: {{ totalPrice > 0 ? Number(((totalPrice - totalCost) / totalPrice) * 100).toFixed(2) : 0 }}%
                 <span>
                   <v-icon color="red">mdi-alert
                   </v-icon>
@@ -144,8 +148,9 @@
                   <v-list>
                     <v-list-item v-for="(item, index) in printing" :key="index" :value="item.name"
                       @click="addPrintingUsage(item)">
-                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled @click.stop.prevent>{{ item.name }}</v-list-item-title>
-                        <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled
+                        @click.stop.prevent>{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
                     </v-list-item>
                   </v-list>
                 </v-menu>
@@ -156,8 +161,9 @@
                   <v-list>
                     <v-list-item v-for="(item, index) in substrates" :key="index" :value="item.name"
                       @click="addSubstrateUsage(item)">
-                        <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled @click.stop.prevent>{{ item.name }}</v-list-item-title>
-                        <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled
+                        @click.stop.prevent>{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
                     </v-list-item>
                   </v-list>
                 </v-menu>
@@ -167,8 +173,9 @@
                 <v-menu activator="parent" location="center">
                   <v-list>
                     <v-list-item v-for="(item, index) in media" :key="index" :value="item" @click="addMediaUsage(item)">
-                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled @click.stop.prevent>{{ item.name }}</v-list-item-title>
-                        <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled
+                        @click.stop.prevent>{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
                     </v-list-item>
                   </v-list>
                 </v-menu>
@@ -179,8 +186,9 @@
                   <v-list>
                     <v-list-item v-for="(item, index) in laminates" :key="index" :value="item.name"
                       @click="addLaminateUsage(item)">
-                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled @click.stop.prevent>{{ item.name }}</v-list-item-title>
-                        <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-if="item.name.startsWith('>>>>')" class="bg-blue" disabled
+                        @click.stop.prevent>{{ item.name }}</v-list-item-title>
+                      <v-list-item-title v-else class="">{{ item.name }}</v-list-item-title>
                     </v-list-item>
                   </v-list>
                 </v-menu>
@@ -219,6 +227,7 @@ import { computed } from "vue";
 //import jsonSubstrates from "@/data/substrates.json";
 //import jsonMedia from "@/data/media.json";
 import jsonPrinting from "@/data/printing.json";
+import jsonPresets from "@/data/presets.json";
 
 import Usage from './Usage.vue'
 
@@ -389,6 +398,7 @@ export default {
     media: null,
     laminates: null,
     printing: jsonPrinting.printing,
+    presets: jsonPresets.presets,
     usages: [],
     x: null,
     y: null,
@@ -432,6 +442,35 @@ export default {
     this.fetchLaminates();
   },
   methods: {
+    loadPreset(preset) {
+      this.qty = 1;
+      this.width = preset.width;
+      this.height = preset.height;
+      this.sides = preset.sides ? item.sides : 1;
+      this.bleed = preset.bleed ? item.bleed : 0;
+      this.spacing = preset.spacing ? item.spacing : 0;
+      this.usages = [];
+      if (preset.printers) {
+        preset.printers.forEach((printer) => {
+          this.addPrintingUsage(printer);
+        });
+      }
+      if (preset.substrates) {
+        preset.media.forEach((substrate) => {
+          this.addSubstrateUsage(substrate);
+        });
+      }         
+      if (preset.media) {
+        preset.media.forEach((media) => {
+          this.addMediaUsage(media);
+        });
+      }      
+      if (preset.laminates) {
+        preset.laminates.forEach((laminate) => {
+          this.addLaminateUsage(laminate);
+        });
+      }         
+    },
     addSubstrateUsage(item) {
       this.usages.push(new SubstrateUsage(item))
     },
@@ -512,20 +551,20 @@ export default {
         });
     },
   },
-    components: {
-      Usage
-    },
-    provide() {
-      return {
-        qty: computed(() => this.qty),
-        width: computed(() => this.width),
-        height: computed(() => this.height),
-        sides: computed(() => this.sides),
-        bleed: computed(() => this.bleed),
-        spacing: computed(() => this.spacing),
-      }
+  components: {
+    Usage
+  },
+  provide() {
+    return {
+      qty: computed(() => this.qty),
+      width: computed(() => this.width),
+      height: computed(() => this.height),
+      sides: computed(() => this.sides),
+      bleed: computed(() => this.bleed),
+      spacing: computed(() => this.spacing),
     }
   }
+}
 
 
 </script>
