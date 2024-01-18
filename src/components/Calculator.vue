@@ -16,7 +16,7 @@
             <v-spacer></v-spacer>
             <v-btn variant="text" @click="reset">Reset</v-btn>
             |
-            <v-btn color="primary" >
+            <v-btn color="primary">
               Select Preset...
               <v-menu activator="parent">
                 <v-list>
@@ -440,36 +440,41 @@ export default {
     this.fetchMedia();
     this.fetchSubstrates();
     this.fetchLaminates();
+    console.log(this.presets);
   },
   methods: {
     loadPreset(preset) {
       this.qty = 1;
       this.width = preset.width;
       this.height = preset.height;
-      this.sides = preset.sides ? item.sides : 1;
-      this.bleed = preset.bleed ? item.bleed : 0;
-      this.spacing = preset.spacing ? item.spacing : 0;
+      this.sides = preset.sides ? preset.sides : 1;
+      this.bleed = preset.bleed ? preset.bleed : 0;
+      this.spacing = preset.spacing ? preset.spacing : 0;
       this.usages = [];
       if (preset.printers) {
-        preset.printers.forEach((printer) => {
-          this.addPrintingUsage(printer);
+        preset.printers.forEach((presetPrinter) => {
+          var printer = this.printing.find(item => item.name === presetPrinter);
+          if (printer) this.addPrintingUsage(printer);
         });
       }
       if (preset.substrates) {
-        preset.media.forEach((substrate) => {
-          this.addSubstrateUsage(substrate);
+        preset.substrates.forEach((presetSubstrate) => {
+          var substrate = this.substrates.find(item => item.name === presetSubstrate);
+          if (substrate) this.addSubstrateUsage(substrate);
         });
-      }         
+      }
       if (preset.media) {
-        preset.media.forEach((media) => {
-          this.addMediaUsage(media);
+        preset.media.forEach((presetMedia) => {
+          var m = this.media.find(item => item.name === presetMedia);
+          if (m) this.addMediaUsage(m);
         });
-      }      
+      }
       if (preset.laminates) {
-        preset.laminates.forEach((laminate) => {
-          this.addLaminateUsage(laminate);
+        preset.laminates.forEach((presetLaminate) => {
+          var laminate = this.laminates.find(item => item.name === presetLaminate);
+          if (laminate) this.addLaminateUsage(laminate);
         });
-      }         
+      }
     },
     addSubstrateUsage(item) {
       this.usages.push(new SubstrateUsage(item))

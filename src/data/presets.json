@@ -27,13 +27,13 @@
             "width": "12",
             "height": "12",
             "media": [
-                "Orajet 3641M - 54”"
+                "Orajet 3641M – 54”"
             ],
             "printers": [
                 "HP R1000"
             ],
             "laminates": [
-                "Oraguard 210G - 54”"
+                "Oraguard 210G – 54”"
             ]
         },
         {
@@ -41,13 +41,13 @@
             "width": "12",
             "height": "12",
             "media": [
-                "3M I40"
+                "3M I40 (ultra calendared, removable) – 54”"
             ],
             "printers": [
                 "HP R1000"
             ],
             "laminates": [
-                "Oraguard 210M - 54”"
+                "Oraguard 210M – 54”"
             ]
         }
     ]        
